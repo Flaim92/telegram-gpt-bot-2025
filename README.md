@@ -14,3 +14,31 @@ To configure, set the configuration parameters in config.json
     "admin_ids": []
 }
 
+
+Windows instructions
+
+mkdir telegram-ai-bot
+cd telegram-ai-bot
+
+python -m venv venv
+
+.\venv\Scripts\activate
+
+pip install python-telegram-bot openai sqlite3
+
+python Main.py
+
+Linux instructions
+
+mkdir telegram-ai-bot
+cd telegram-ai-bot
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install python-telegram-bot openai
+
+python Main.py
+
+
